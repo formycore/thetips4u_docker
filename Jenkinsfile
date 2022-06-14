@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/formycore/thetips4u_docker.git
+        git 'https://github.com/formycore/thetips4u_docker.git'
       }
     }
 
